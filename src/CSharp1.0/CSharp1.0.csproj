@@ -37,8 +37,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1.Classes\Example.cs" />
+    <Compile Include="2.Structs\Example.cs" />
+    <Compile Include="3.Interfaces\Example.cs" />
+    <Compile Include="4.Events\Example.cs" />
+    <Compile Include="5.Properties\Example.cs" />
+    <Compile Include="6.Delegates\Example.cs" />
+    <Compile Include="7.OperatorsAndExpressions\Example.cs" />
+    <Compile Include="8.Statements\Example.cs" />
+    <Compile Include="9.Attributes\Example.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
